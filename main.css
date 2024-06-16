@@ -18,7 +18,7 @@ body{
     display: grid;
     height: 100%;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    padding: 7% 7% 7% 7%;
+    padding: 7% 10% 7% 7%;
     gap: 2%;
 }
 .right{
@@ -30,6 +30,10 @@ body{
     padding: 7% 7% 7% 7%;
 }
 
+img{
+    border-radius: 50%;
+    width: 100%;
+}
 .exp{
     display: flex;
     flex-direction: column;
@@ -37,10 +41,10 @@ body{
 }
 
 .job{
-display: flex;
-font-size: small;
-gap: 5%;
-padding: 2%;
+    display: flex;
+    font-size: small;
+    gap: 5%;
+    padding: 2%;
 
 }
 
@@ -53,4 +57,56 @@ padding: 2%;
     flex-direction: column;
     gap: 10px;
     padding-top: 10%;
+}
+
+.lang-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact-info{
+    padding: 5% 0 5% 0;
+}
+
+hr{
+    width: 20%;
+}
+
+.skills-info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 5%
+}
+.skill{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20%;
+}
+.points{
+    display: flex;
+    gap: 8px;
+}
+.point{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    content: "";
+}
+
+.gray{
+    background-color: darkslategray;
+}
+
+.light{
+    background-color: rgb(137, 185, 185);
+}
+
+.white{
+    background-color: rgb(247, 241, 233);
 }
