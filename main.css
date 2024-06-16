@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 207mm;
+    width: 160mm;
+    margin: auto;
+}
+.container{
+    background-color:rgb(247, 241, 233);
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.left{
+    background-color: darkslategray;
+    color: rgb(247, 241, 233);
+    display: grid;
+    height: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 5% 5% 5% 5%;
+    gap: 2%;
+}
+.right{
+    background-color: rgb(247, 241, 233);
+    color: darkslategray;
+    display: grid;
+    height: 100%;
+    grid-template-rows: 1fr 1fr 4fr 1fr;
+    padding: 7% 7% 7% 7%;
+}
